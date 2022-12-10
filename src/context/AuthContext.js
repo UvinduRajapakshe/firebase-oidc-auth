@@ -10,7 +10,7 @@ const AuthContextProvider = ({ children }) => {
     const [loading, setLoading] = useState(true)
 
     const signInWithAuth0 = () => {
-        const oidcProvider = new OAuthProvider('oidc.auth0');
+        const oidcProvider = new OAuthProvider('uvindubro.us.auth0.com');
         return signInWithPopup(auth, oidcProvider);
     }
 

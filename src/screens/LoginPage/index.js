@@ -48,6 +48,9 @@ const LoginPage = () => {
               <h1 className="subtitle is-3 has-text-black mb-5">
                 Sri Lanka 🇱🇰
               </h1>
+              <h1 className="subtitle is-3 has-text-black mb-5">
+                By <a href="https://uvindubro.me" target="_blank" rel="noreferrer">Uvindu Rajapakshe</a>
+              </h1>
               <img className="login-image" src={Auth0Logo} alt="DevFest" />
               <div className="login-button-holder mt-4">
                 <button className="button login-button mt-3" onClick={initiateOIDCLogin}>
